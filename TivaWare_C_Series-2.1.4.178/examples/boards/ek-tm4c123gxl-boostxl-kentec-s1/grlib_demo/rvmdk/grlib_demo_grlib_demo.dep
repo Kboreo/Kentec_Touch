@@ -1,0 +1,77 @@
+Dependencies for Project 'grlib_demo', Target 'grlib_demo': (DO NOT MODIFY !)
+F (..\drivers\Kentec320x240x16_ssd2119_spi.c)(0x5A122CBA)(-c --cpu Cortex-M4.fp -D__MICROLIB -g -O2 --apcs=interwork --split_sections -I .. -I ..\..\..\.. --c99-I.\RTE\_grlib_demo-IC:\Keil_v5\ARM\PACK\ARM\CMSIS\5.0.1\CMSIS\Include-IC:\Keil_v5\ARM\PACK\Keil\TM4C_DFP\1.1.0\Device\Include\TM4C123-D__UVISION_VERSION="524" -D_RTE_ -DTM4C123GH6PM -Drvmdk -DPART_TM4C123GH6PM -DTARGET_IS_TM4C123_RB1-o .\rvmdk\kentec320x240x16_ssd2119_spi.o --omf_browse .\rvmdk\kentec320x240x16_ssd2119_spi.crf --depend .\rvmdk\kentec320x240x16_ssd2119_spi.d)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x588C3A14)
+I (C:\Keil_v5\ARM\ARMCC\include\stdbool.h)(0x588C3A14)
+I (..\..\..\..\inc/hw_gpio.h)(0x5A122CCF)
+I (..\..\..\..\inc/hw_ints.h)(0x5A122CD0)
+I (..\..\..\..\inc/hw_memmap.h)(0x5A122CD0)
+I (..\..\..\..\inc/hw_types.h)(0x5A122CD0)
+I (..\..\..\..\driverlib/ssi.h)(0x5A122C9F)
+I (..\..\..\..\driverlib/gpio.h)(0x5A122C9F)
+I (..\..\..\..\driverlib/interrupt.h)(0x5A122C9F)
+I (..\..\..\..\driverlib/sysctl.h)(0x5A122C9F)
+I (..\..\..\..\driverlib/timer.h)(0x5A122C9F)
+I (..\..\..\..\driverlib/rom.h)(0x5A122C9F)
+I (..\..\..\..\driverlib/pin_map.h)(0x5A122C9F)
+I (..\..\..\..\grlib/grlib.h)(0x5A122CCD)
+I (..\drivers/Kentec320x240x16_ssd2119_spi.h)(0x5A122CBA)
+F (.\grlib_demo.c)(0x5A2DC3F2)(-c --cpu Cortex-M4.fp -D__MICROLIB -g -O2 --apcs=interwork --split_sections -I .. -I ..\..\..\.. --c99-I.\RTE\_grlib_demo-IC:\Keil_v5\ARM\PACK\ARM\CMSIS\5.0.1\CMSIS\Include-IC:\Keil_v5\ARM\PACK\Keil\TM4C_DFP\1.1.0\Device\Include\TM4C123-D__UVISION_VERSION="524" -D_RTE_ -DTM4C123GH6PM -Drvmdk -DPART_TM4C123GH6PM -DTARGET_IS_TM4C123_RB1-o .\rvmdk\grlib_demo.o --omf_browse .\rvmdk\grlib_demo.crf --depend .\rvmdk\grlib_demo.d)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x588C3A14)
+I (C:\Keil_v5\ARM\ARMCC\include\stdbool.h)(0x588C3A14)
+I (..\..\..\..\inc/hw_memmap.h)(0x5A122CD0)
+I (..\..\..\..\inc/hw_nvic.h)(0x5A122CD0)
+I (..\..\..\..\inc/hw_sysctl.h)(0x5A122CD0)
+I (..\..\..\..\inc/hw_types.h)(0x5A122CD0)
+I (..\..\..\..\driverlib/fpu.h)(0x5A122C9F)
+I (..\..\..\..\driverlib/gpio.h)(0x5A122C9F)
+I (..\..\..\..\driverlib/flash.h)(0x5A122C9F)
+I (..\..\..\..\driverlib/sysctl.h)(0x5A122C9F)
+I (..\..\..\..\driverlib/systick.h)(0x5A122C9F)
+I (..\..\..\..\driverlib/uart.h)(0x5A122C9F)
+I (..\..\..\..\driverlib/udma.h)(0x5A122C9F)
+I (..\..\..\..\driverlib/rom.h)(0x5A122C9F)
+I (..\..\..\..\grlib/grlib.h)(0x5A122CCD)
+I (..\..\..\..\grlib/widget.h)(0x5A122CCD)
+I (..\..\..\..\grlib/canvas.h)(0x5A122CCD)
+I (..\..\..\..\grlib/checkbox.h)(0x5A122CCD)
+I (..\..\..\..\grlib/container.h)(0x5A122CCD)
+I (..\..\..\..\grlib/pushbutton.h)(0x5A122CCD)
+I (..\..\..\..\grlib/radiobutton.h)(0x5A122CCD)
+I (..\..\..\..\grlib/slider.h)(0x5A122CCD)
+I (..\..\..\..\utils/ustdlib.h)(0x5A122CE3)
+I (C:\Keil_v5\ARM\ARMCC\include\stdarg.h)(0x588C3A14)
+I (C:\Keil_v5\ARM\ARMCC\include\time.h)(0x588C3A14)
+I (..\drivers/Kentec320x240x16_ssd2119_spi.h)(0x5A122CBA)
+I (..\drivers/touch.h)(0x5A122CBA)
+I (images.h)(0x5A122CBA)
+F (.\images.c)(0x5A122CBA)(-c --cpu Cortex-M4.fp -D__MICROLIB -g -O2 --apcs=interwork --split_sections -I .. -I ..\..\..\.. --c99-I.\RTE\_grlib_demo-IC:\Keil_v5\ARM\PACK\ARM\CMSIS\5.0.1\CMSIS\Include-IC:\Keil_v5\ARM\PACK\Keil\TM4C_DFP\1.1.0\Device\Include\TM4C123-D__UVISION_VERSION="524" -D_RTE_ -DTM4C123GH6PM -Drvmdk -DPART_TM4C123GH6PM -DTARGET_IS_TM4C123_RB1-o .\rvmdk\images.o --omf_browse .\rvmdk\images.crf --depend .\rvmdk\images.d)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x588C3A14)
+I (C:\Keil_v5\ARM\ARMCC\include\stdbool.h)(0x588C3A14)
+I (..\..\..\..\grlib/grlib.h)(0x5A122CCD)
+F (.\startup_rvmdk.S)(0x5A122CBA)(--cpu Cortex-M4.fp -g --apcs=interwork --pd "__MICROLIB SETA 1"-I.\RTE\_grlib_demo-IC:\Keil_v5\ARM\PACK\ARM\CMSIS\5.0.1\CMSIS\Include-IC:\Keil_v5\ARM\PACK\Keil\TM4C_DFP\1.1.0\Device\Include\TM4C123--pd "__UVISION_VERSION SETA 524" --pd "_RTE_ SETA 1" --pd "TM4C123GH6PM SETA 1"-o .\rvmdk\startup_rvmdk.o --depend .\rvmdk\startup_rvmdk.d)
+F (..\drivers\touch.c)(0x5A122CBA)(-c --cpu Cortex-M4.fp -D__MICROLIB -g -O2 --apcs=interwork --split_sections -I .. -I ..\..\..\.. --c99-I.\RTE\_grlib_demo-IC:\Keil_v5\ARM\PACK\ARM\CMSIS\5.0.1\CMSIS\Include-IC:\Keil_v5\ARM\PACK\Keil\TM4C_DFP\1.1.0\Device\Include\TM4C123-D__UVISION_VERSION="524" -D_RTE_ -DTM4C123GH6PM -Drvmdk -DPART_TM4C123GH6PM -DTARGET_IS_TM4C123_RB1-o .\rvmdk\touch.o --omf_browse .\rvmdk\touch.crf --depend .\rvmdk\touch.d)
+I (C:\Keil_v5\ARM\ARMCC\include\stdbool.h)(0x588C3A14)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x588C3A14)
+I (..\..\..\..\inc/hw_adc.h)(0x5A122CCF)
+I (..\..\..\..\inc/hw_gpio.h)(0x5A122CCF)
+I (..\..\..\..\inc/hw_ints.h)(0x5A122CD0)
+I (..\..\..\..\inc/hw_memmap.h)(0x5A122CD0)
+I (..\..\..\..\inc/hw_timer.h)(0x5A122CD0)
+I (..\..\..\..\inc/hw_types.h)(0x5A122CD0)
+I (..\..\..\..\driverlib/adc.h)(0x5A122C9F)
+I (..\..\..\..\driverlib/gpio.h)(0x5A122C9F)
+I (..\..\..\..\driverlib/interrupt.h)(0x5A122C9F)
+I (..\..\..\..\driverlib/sysctl.h)(0x5A122C9F)
+I (..\..\..\..\driverlib/timer.h)(0x5A122C9F)
+I (..\..\..\..\grlib/grlib.h)(0x5A122CCD)
+I (..\..\..\..\grlib/widget.h)(0x5A122CCD)
+I (..\drivers/touch.h)(0x5A122CBA)
+F (..\..\..\..\utils\ustdlib.c)(0x5A122CE3)(-c --cpu Cortex-M4.fp -D__MICROLIB -g -O2 --apcs=interwork --split_sections -I .. -I ..\..\..\.. --c99-I.\RTE\_grlib_demo-IC:\Keil_v5\ARM\PACK\ARM\CMSIS\5.0.1\CMSIS\Include-IC:\Keil_v5\ARM\PACK\Keil\TM4C_DFP\1.1.0\Device\Include\TM4C123-D__UVISION_VERSION="524" -D_RTE_ -DTM4C123GH6PM -Drvmdk -DPART_TM4C123GH6PM -DTARGET_IS_TM4C123_RB1-o .\rvmdk\ustdlib.o --omf_browse .\rvmdk\ustdlib.crf --depend .\rvmdk\ustdlib.d)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x588C3A14)
+I (..\..\..\..\driverlib/debug.h)(0x5A122C9F)
+I (..\..\..\..\utils/ustdlib.h)(0x5A122CE3)
+I (C:\Keil_v5\ARM\ARMCC\include\stdarg.h)(0x588C3A14)
+I (C:\Keil_v5\ARM\ARMCC\include\time.h)(0x588C3A14)
+F (..\..\..\..\driverlib\rvmdk\driverlib.lib)(0x5A122C9F)()
+F (..\..\..\..\grlib\rvmdk\grlib.lib)(0x5A122CCF)()
+F (.\readme.txt)(0x5A122CBA)()

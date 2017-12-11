@@ -1,0 +1,13 @@
+--cpu=Cortex-M4.fp
+".\rvmdk\kentec320x240x16_ssd2119_spi.o"
+".\rvmdk\grlib_demo.o"
+".\rvmdk\images.o"
+".\rvmdk\startup_rvmdk.o"
+".\rvmdk\touch.o"
+".\rvmdk\ustdlib.o"
+"..\..\..\..\driverlib\rvmdk\driverlib.lib"
+"..\..\..\..\grlib\rvmdk\grlib.lib"
+--library_type=microlib --strict --scatter "grlib_demo.sct"
+--entry Reset_Handler --summary_stderr --info summarysizes --map --load_addr_map_info --xref --callgraph --symbols
+--info sizes --info totals --info unused --info veneers
+--list ".\rvmdk\grlib_demo.map" -o .\rvmdk\grlib_demo.axf
